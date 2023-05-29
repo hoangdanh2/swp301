@@ -7,19 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.images{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: red;
-}
-
 .container{
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  max-width: 480px;
+  max-width: 430px;
   width: 100%;
   background: #fff;
   border-radius: 7px;
@@ -53,10 +46,13 @@
   margin-bottom: 1.5rem;
 }
 
+  .icon-login {
+    display: flex;
+  }
  .form input{
    height: 60px;
-   width: 92%;
-   padding: 0 14px;
+   width: 100%;
+   padding: 0 8px;
    font-size: 17px;
    margin-top: 15px;
    margin-bottom: 1.3rem;
@@ -88,7 +84,6 @@
   margin-top: 1.7rem;
   cursor: pointer;
   transition: 0.4s;
-  width: 100%;
 }
 
 .form input.button:hover{
@@ -108,7 +103,15 @@
 .signup label:hover{
   text-decoration: underline;
 }
-
-.icon-login {
-  margin-right: 5px;
+input[type="text"],
+input[type="email"], 
+input[type="message"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }

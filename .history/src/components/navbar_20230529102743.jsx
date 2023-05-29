@@ -9,7 +9,7 @@ export const Navbar = () => {
       <div className="links">
         <div className="icon">
           <Link to="/">
-            <Bird size={40} />
+            <Bird size={32} />
           </Link>
         </div>
         <div className="middle">

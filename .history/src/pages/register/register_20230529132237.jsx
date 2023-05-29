@@ -5,6 +5,7 @@ import "./register.css";
 export const Register = () => {
   return (
     <div className="images">
+    <h1>tests</h1>
     <div className="container">
     <input type="checkbox" id="check"></input>
     <div className="login form">

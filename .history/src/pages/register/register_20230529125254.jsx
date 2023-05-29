@@ -4,7 +4,6 @@ import "./register.css";
 
 export const Register = () => {
   return (
-    <div className="images">
     <div className="container">
     <input type="checkbox" id="check"></input>
     <div className="login form">
@@ -44,7 +43,6 @@ export const Register = () => {
         </span>
       </div>
     </div>
-  </div>
   </div>
   );
 };
