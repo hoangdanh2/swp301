@@ -14,9 +14,9 @@ label{
 
     text-align: center;
 }
-/* 
+
 input[type="text"],
-input[type="email"],
+.type-email,
 input[type="message"],
 textarea {
   width: 100%;
@@ -26,7 +26,7 @@ textarea {
   box-sizing: border-box;
   margin-top: 5px;
   margin-bottom: 10px;
-} */
+}
 
 input[type="submit"] {
     background-color: #4CAF50;

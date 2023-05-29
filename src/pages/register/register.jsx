@@ -12,7 +12,7 @@ export const Register = () => {
       <form action="#"> 
         <div className="login-form">
         <span className="icon-login"><EnvelopeSimple size={28}></EnvelopeSimple></span>
-        <input type="text" id="email" placeholder="Enter your email" required></input>
+        <input type="email" id="email" placeholder="Enter your email" required></input>
         <span className="icon-login"><LockKey size={28}></LockKey></span>
         <input type="password" id="password" placeholder="Enter your password" required></input>
         </div>
