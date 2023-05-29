@@ -3,7 +3,7 @@
     height: 80px;
     background-color: rgb(19, 19, 19);
     display: flex;
-    justify-content: center;
+    /* justify-content: space-around; */
     align-items: center;
 }
 
@@ -11,12 +11,6 @@
     margin-right: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.icon {
-    margin-left: 50px;
 }
 
 .links a {

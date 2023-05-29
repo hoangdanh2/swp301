@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ShoppingCart, Bird, SignIn } from "phosphor-react";
+import { ShoppingCart, Bird } from "phosphor-react";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -17,9 +17,7 @@ export const Navbar = () => {
           <Link to="/contact"> Contact</Link>
         </div>
         <div className="end">
-            <Link to="/register"> 
-                <SignIn size={32}/>
-            </Link>
+          <Link to="/register"> Login </Link>
           <Link to="/cart">
             <ShoppingCart size={32} />
           </Link>
